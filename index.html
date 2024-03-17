@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="css/bootstrap.min (1).css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+
+/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+<!-- Option 1: Include in HTML -->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<link rel="shortcut icon" href="/LOGO.png" type="image/x-icon">
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-info sticky-lg-top my-0 py-2">
+    <div class="container-fluid" style="height:60px;">
+        <img src="/LOGO.png" alt="" width="80" class="rounded-circle ms-3" height="80">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse p-0" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 ms-xl-4 mb-lg-0 gap-3 text-center bg-info m-0">
+                <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="https://mail.google.com/mail/u/0/#inbox/KtbxLwGnRqWnblnjcgVRKXrLqPJRKzDbRg">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Projects</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-light dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Our Team
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Experiences</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                  
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Contact</a>
+                </li>
+            </ul>
+            <div class="button-col d-flex justify-content-xl-end gap-xl-4 align-items-center position-absolute" style="right: 2%;">
+              <button id="signInButton" type="button" class="btn btn-lg-sm btn-outline-secondary fw-bold">Sign in</button>
+
+
+
+                <button type="button" class="btn btn-lg-sm btn-primary ms-1">Get started</button>
+                <div id="searchInput" style="display: none;">
+                    <input type="text" placeholder="Search..." class="form-control">
+                </div>
+                <a class="" href="#" id="searchIcon"><i class="bi bi-search h4 me-xl-2 pe-1 ms-1 "  data-bs-target="#staticBackdrop"></i></a>
+                <!-- Full screen modal -->
+
+
+        </div>
+    </div>
+ 
+</nav>
+<!-- Modal search -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="input-group">
+          <input type="search" name="search" id="myInput" class="form-control" placeholder="Search..." aria-label="Search...">
+          <button class="btn btn-secondary" type="button"><i class="bi bi-search"></i></button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<main>
+    <section>
+        <div class="container-md container-fluid d-flex align-items-center Artifcial_div">
+            <div class="row">
+                <div class="col-lg-6 d-flex align-items-center col-12 mt-4">
+                    <div class="card animate__backInDown shadow-  pt-1 pb-2 px-2 pt-2 " style="background: transparent;">
+                        <h1 class="text-">Artificial Intelligence <br>for Your Business</h1>
+                        <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis explicabo optio omnis impedit necessitatibus ut numquam eligendi laboriosam.</p>
+                        <div class="btn-cont mt-2">
+                            <button type="button" class="btn btn-primary rounded-5">Read more</button>
+                            <button type="button" class="btn btn-outline-info rounded-5 ms-2 " data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Contact us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <img src="PHOTO-1.png" class="img-fluid pt-5" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal  modal-dialog modal-xl" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+       
+              <div class="container-fluid py-5 h-50">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                  <div class="col col-xl-10">
+                    <div class="card w-100" style="border-radius: 1rem;">
+                      <div class="row g-0">
+                        <div class="col-md-6 col-lg-5 d-none d-md-block">
+                          <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img1.webp"
+                            alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem;" />
+                        </div>
+                        <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                          <div class="card-body p-4 p-lg-5 text-black">
+            
+                            <form>
+            
+                              <div class="d-flex align-items-center mb-3 pb-1">
+                                <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i>
+                                <span class="h1 fw-bold mb-0">Logo</span>
+                              </div>
+            
+                              <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h5>
+            
+                              <div class="form-outline mb-4">
+                                <input type="email" id="form2Example17" class="form-control form-control-lg" />
+                                <label class="form-label" for="form2Example17">Email address</label>
+                              </div>
+            
+                              <div class="form-outline mb-4">
+                                <input type="password" id="form2Example27" class="form-control form-control-lg" />
+                                <label class="form-label" for="form2Example27">Password</label>
+                              </div>
+            
+                              <div class="pt-1 mb-4">
+                                <button class="btn btn-dark btn-lg btn-block" type="button">Login</button>
+                              </div>
+            
+                              <a class="small text-muted" href="#!">Forgot password?</a>
+                              <p class="mb-5 pb-lg-2" style="color: #393f81;">Don't have an account? <a href="#!"
+                                  style="color: #393f81;">Register here</a></p>
+                              <a href="#!" class="small text-muted">Terms of use.</a>
+                              <a href="#!" class="small text-muted">Privacy policy</a>
+                            </form>
+            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+          </div>
+         
+        </div>
+      </div>
+      </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Object:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="mb-3">
+                <label for="Email" class="col-form-label">Email:</label>
+                <input type="email" class="form-control" id="Email">
+              </div>
+              <div class="mb-3">
+                <label for="message-text" class="col-form-label">Message:</label>
+                <textarea class="form-control" id="message-text" rows="7"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Send message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <section>
+            <div class="container-md container-fluid my-5">
+                <div class="row">
+                    <div class="col-lg-6  col-12 d-flex align-items-center py-3 justify-content-center" style="height: 75vh;">
+                        <img src="/project-3.jpg" alt="ia_png" class="img-lg-fluid h-md-100 h-75 img-thumbnail animate__fadeInUp animate__infinite photo  ">
+                    </div>
+                    <div class="col-lg-6 col-12 mt-4">
+                        <h1>We Make Your Business Smarter with Artificial Intelligence</h1>
+                        <p class="fs-6 my-3">Lorem ipsum  adipisicus voluptates labore deserunt commodi volDoloremquedit Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa id expedita dolores cupiditate, omnis fugiat. iusto delectus nisi, laudantium tenetur nemo?</p>
+                        <p class="fs-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis id aspernatur repudiandae sint labore consequatur, eum accusamus sapiente.</p>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-sm-6  text-info fw-bold h6"><i class="bi bi-check2 text-info "></i>Award Winning</div>
+                                <div class="col-sm-6  text-info fw-bold h6"><i class="bi bi-check2 text-info "></i>24/7 Suppoort</div>
+                                <div class="col-sm-6  mt-2 text-info fw-bold h6"><i class="bi bi-check2 text-info "></i>Professionnal Staff</div>
+                                <div class="col-sm-6  mt-2 text-info fw-bold h6"><i class="bi bi-check2 text-info "></i>Fair Prices</div>
+                            </div>
+                            <div class="btn-goup-2">
+                                <a class="btn btn-info rounded-pill px-3 py-1">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+          <div class="container mt-5 z-3">
+              <div class="row gap-3">
+                  <div class="col-12 col-md-6 col-lg ">
+                      <div class="card w-100  hvr-shutter-in-vertical " style="width: 18rem;">
+                          <img src="Analysis.jpg" class="card-img-top img-fluid" alt="...">
+                          <div class="card-body">
+                              <h5 class="card-title">Analysis</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md">
+                    <div class="card w-100  w hvr-shutter-in-vertical " style="width: 18rem;">
+                          <img src="robotic.webp" class="card-img-top img-fluid" alt="...">
+                          <div class="card-body">
+                              <h5 class="card-title">Robotic Automation</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Read More</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg">
+                     <div class="card w-100  w hvr-shutter-in-vertical " style="width: 18rem;">
+                          <img src="EDUCATION.jpg" class="card-img-top img-fluid" alt="...">
+                          <div class="card-body">
+                              <h5 class="card-title">Education & Science</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Read More</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg">
+                    <div class="card w-100   hvr-shutter-in-vertical " style="width: 18rem;">
+                          <img src="machine_learning.jpg" class="card-img-top img-fluid" alt="...">
+                          <div class="card-body">
+                              <h5 class="card-title">Machine learning</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Read More</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      
+      
+        <section>
+          <div class="container py-5">
+        
+              <h1 class="text-md-center  py-4  " style="font-size: 4rem;">Frequently Asked <br> Questions</h1>
+        
+              <div class="container-fluid container-md  ">
+                <div class="row  ">
+                  <div class="col-lg-6 col-12 ">
+                    <div class="btn1">
+                      <p class="d-inline-flex gap-1 w-100">
+                      
+                        <button class="btn btn-secondary w-75  " type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                          Do you only create HTML websites? <span class="bi-caret-down float-end"></span>
+                        </button>
+                      </p>
+                      <div class="collapse" id="collapseExample1">
+                        <div class="lead card-body">
+                          Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                        </div>
+                      </div>
+                    
+                       </div>
+                       <div class="btn1">
+                    <p class="d-inline-flex gap-1 w-100">
+                    
+                      <button class="btn btn-secondary  w-75" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                       How to build Website?<span class="bi-caret-down float-end"></span>
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample2">
+                      <div class=" card-body lead">
+                        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                      </div>
+                    </div>
+                  
+                       </div>
+                       <div class="btn1">
+                  <p class="d-inline-flex gap-1 w-100">
+                  
+                    <button class="btn btn-secondary w-75" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+                         How long will it take to get a new website?<span class="bi-caret-down float-end"></span>
+                    </button>
+                  </p>
+                  <div class="collapse" id="collapseExample3">
+                    <div class=" card-body lead ">
+                      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    </div>
+                  </div>
+                
+                       </div>
+                       <div class="btn1">
+                <p class="d-inline-flex gap-1 w-100">
+                
+                  <button class="btn btn-secondary w-75" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+                       Will-my website be mobile-friendly?<span class="bi-caret-down float-end"></span>
+                  </button>
+                </p>
+                <div class="collapse" id="collapseExample3">
+                  <div class=" card-body lead">
+                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                  </div>
+                </div>
+              
+                      </div>
+                  </div>
+                  <div class="col-lg-6 col-12 ">
+                    <div class="btn1">
+                      <p class="d-inline-flex gap-1 w-100">
+                      
+                        <button class="btn btn-secondary  w-75" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">
+                          Will you maintain my site for me?<span class="bi-caret-down float-end"></span>
+                        </button>
+                      </p>
+                      <div class="collapse" id="collapseExample5">
+                        <div class=" card-body lead">
+                          Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                        </div>
+                      </div>
+                    
+                       </div>
+                       <div class="btn1">
+                    <p class="d-inline-flex gap-1 w-100">
+                    
+                      <button class="btn btn-secondary w-75 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample">
+                        Will you help to create a website?<span class="bi-caret-down float-end"></span>
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample6">
+                      <div class= " lead card-body">
+                        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                      </div>
+                    </div>
+                  
+                       </div>
+                       <div class="btn1">
+                  <p class="d-inline-flex gap-1 w-100">
+                  
+                    <button class="btn btn-secondary w-75" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample7" aria-expanded="false" aria-controls="collapseExample">
+                      how machine learning works?<span class="bi-caret-down float-end"></span>
+                    </button>
+                  </p>
+                  <div class="collapse" id="collapseExample7">
+                    <div class=" fs-6  card-body lead">
+                      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    </div>
+                  </div>
+                
+                       </div>
+                       <div class="btn1">
+                <p class="d-inline-flex gap-1 w-100">
+                
+                  <button class="btn btn-secondary w-75" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample8" aria-expanded="false" aria-controls="collapseExample">
+                       I'm on a strict budget.Do you have any low cost ?<span class="bi-caret-down float-end"></span>
+                  </button>
+                </p>
+                <div class="collapse" id="collapseExample8">
+                  <div class=" card-body lead">
+                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                  </div>
+                </div>
+              
+                      </div>
+                  </div>
+               
+                </div>
+              </div>
+       
+  
+        </section>
+      <section>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-5">
+              <h1>Meet Our Experienced Team Members</h1>
+              <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi vero quod nobis omnis nihil!</p>
+              <a class="btn btn-outline-info rounded-pill px-3 py-1">Read More</a>
+
+            </div>
+
+            <div class="col-lg-7  ">
+               <div class="row gx-3 gy-2 justify-content-center ">
+                <div class="col-lg-5 mx-4 d-flex justify-content-center ">
+                  <div class="card nft py-2" style="width: 18rem;">
+                    <img src="team-1.jpg" class="card-img-top rounded-circle   w-50 d-block mx-auto" alt="..." style="height: 40%;" >
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Boris Johnson</h5>
+                      <p class="text-center">Founder & CEO</p>
+                      <div class="icon-group d-flex  gap-1 justify-content-center">
+                        <a href="" class="btn rounded-circle px-1 py-1 btn-info " style="height: 40px;"><svg xmlns="http://www.w3.org/2000/svg"  width="25" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                        </svg></a>
+                        <a href="" class="btn rounded-circle px-1 py-1 btn-info " style="height: 40px;"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                        </svg></a>
+                        <a href="" class="btn rounded-circle px-1 py-1 btn-info " style="height: 40px;"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                        </svg></a>
+                        <a href="" class="btn rounded-circle px-1 py-1 btn-info" style="height: 40px;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                        </svg></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class=" col-lg-5 d-flex justify-content-center ">
+                  <div class="card nft py-2" style="width: 18rem;">
+                    <img src="team-2.jpg" class="card-img-top rounded-circle   w-50 d-block mx-auto" alt="..." style="height: 40%;" >
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Boris Johnson</h5>
+                      <p class="text-center">Founder & CEO</p>
+                        <div class="icon-group d-flex  gap-1 justify-content-center">
+                          <a href="" class="btn rounded-circle px-1 py-1 btn-info " style="height: 40px;"><svg xmlns="http://www.w3.org/2000/svg"  width="25" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                          </svg></a>
+                          <a href="" class="btn rounded-circle px-1 py-1 btn-info " style="height: 40px;"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                          </svg></a>
+                          <a href="" class="btn rounded-circle px-1 py-1 btn-info " style="height: 40px;"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                          </svg></a>
+                          <a href="" class="btn rounded-circle px-1 py-1 btn-info" style="height: 40px;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                          </svg></a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5 mx-4 d-flex justify-content-center">
+                  <div class="card nft py-2" style="width: 18rem;">
+                    <img src="team-3.jpg" class="card-img-top rounded-circle   w-50 d-block mx-auto" alt="..." style="height: 40%;" >
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Boris Johnson</h5>
+                      <p class="text-center">Founder & CEO</p>
+                      <div class="icon-group d-flex  gap-1 justify-content-center">
+                        <a href="" class="btn rounded-circle px-1 py-1 btn-info " style="height: 40px;"><svg xmlns="http://www.w3.org/2000/svg"  width="25" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                        </svg></a>
+                        <a href="" class="btn rounded-circle px-1 py-1 btn-info " style="height: 40px;"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                        </svg></a>
+                        <a href="" class="btn rounded-circle px-1 py-1 btn-info " style="height: 40px;"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                        </svg></a>
+                        <a href="" class="btn rounded-circle px-1 py-1 btn-info" style="height: 40px;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                        </svg></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5 d-flex justify-content-center">
+                  <div class="card nft py-2" style="width: 18rem;">
+                    <img src="team-4.jpg" class="card-img-top rounded-circle   w-50 d-block mx-auto" alt="..." style="height: 40%;" >
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Boris Johnson</h5>
+                      <p class="text-center">Founder & CEO</p>
+                      <div class="icon-group d-flex  gap-1 justify-content-center">
+                        <a href="" class="btn rounded-circle px-1 py-1 btn-info " style="height: 40px;"><svg xmlns="http://www.w3.org/2000/svg"  width="25" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                        </svg></a>
+                        <a href="" class="btn rounded-circle px-1 py-1 btn-info " style="height: 40px;"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                        </svg></a>
+                        <a href="" class="btn rounded-circle px-1 py-1 btn-info " style="height: 40px;"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                        </svg></a>
+                        <a href="" class="btn rounded-circle px-1 py-1 btn-info" style="height: 40px;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                        </svg></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               </div>
+          
+            </div>
+          </div>
+             
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  
+<!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container-fluid my-5 px-0  ">
+  <!-- Footer -->
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer  pt-5 ">
+      <div class="container py-0  ">
+          <div class="row g-5 ">
+              <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                  <a href="index.html" class="d-inline-block mb-3">
+                      <h1 class="text-white">AY<span class="text-primary">.</span>Tech</h1>
+                  </a>
+                  <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
+                      amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
+                      clita duo justo et tempor</p>
+              </div>
+              <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                  <h5 class="text-white mb-4">Get In Touch</h5>
+                  <p><i class="fa fa-map-marker-alt me-3"></i>Diar8 imm12 apt 10 salé Maroc</p>
+                  <p><i class="fa fa-phone-alt me-3"></i>+212 6181494100</p>
+                  <p><i class="fa fa-envelope me-3"></i>aymanerachid47@gmail.com</p>
+                  <div class="d-flex pt-2">
+                      <a class="btn btn-outline-light btn-social" href=""><i class="bi bi-twitter"></i></a>
+                      <a class="btn btn-outline-light btn-social" href=""><i class="bi bi-facebook"></i></a>
+                      <a class="btn btn-outline-light btn-social" href=""><i class="bi bi-youtube"></i></a>
+                      <a class="btn btn-outline-light btn-social" href=""><i class="bi bi-instagram"></i></a>
+                      <a class="btn btn-outline-light btn-social" href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                <h5 class="text-white mb-4">Popular Link</h5>
+                <a class="btn" href=""><i class="bi bi-caret-right-fill"></i>About Us</a>
+                <a class="btn" href=""><i class="bi bi-caret-right-fill"></i>Contact Us</a>
+                <a class="btn" href=""><i class="bi bi-caret-right-fill"></i>Privacy Policy</a>
+                <a class="btn" href=""><i class="bi bi-caret-right-fill"></i>Terms & Condition</a>
+                <a class="btn" href=""><i class="bi bi-caret-right-fill"></i>Career</a>
+            </div>
+            
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+              <h5 class="text-white mb-4">Our Services</h5>
+              <a class="btn" href=""><i class="bi bi-caret-right-fill"></i>Robotic Automation</a>
+              <a class="btn" href=""><i class="bi bi-caret-right-fill"></i>Machine learning</a>
+              <a class="btn" href=""><i class="bi bi-caret-right-fill"></i>Predictive Analysis</a>
+              <a class="btn" href=""><i class="bi bi-caret-right-fill"></i>Data Science</a>
+              <a class="btn" href=""><i class="bi bi-caret-right-fill"></i>Robot Technology</a>
+          </div>
+          
+          </div>
+      </div>
+      <div class="container wow fadeIn " data-wow-delay="0.1s">
+          <div class="copyright">
+              <div class="row">
+                  <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                      &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+
+                      <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                      Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom" href="https://themewagon.com">ThemeWagon</a>
+                  </div>
+                  <div class="col-md-6 text-center text-md-end">
+                      <div class="footer-menu">
+                          <a href="" class="text">Home</a>
+                          <a href="">Cookies</a>
+                          <a href="">Help</a>
+                          <a href="">FAQs</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Footer -->
+</div>
+<!-- End of .container -->
+
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+ 
+</body>
+
+</html>
