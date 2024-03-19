@@ -248,7 +248,7 @@
 
 /*** Footer ***/
 .footer {
-  background: url(/footer.png) center center no-repeat;
+  background: url(footer.png) center center no-repeat;
   background-size: contain;
 }
 
