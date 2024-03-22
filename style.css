@@ -329,7 +329,7 @@ height:40vh!important ;
 }
 
 .card,.card-body {
-  max-height: 350px; 
+  min-height: 150px; 
  
 }
 .card-text{
@@ -342,7 +342,6 @@ height:40vh!important ;
 .footer *,.navbar * {
   font-size: 14px !important; /* change this value to your desired size */
 }
-
 .gradient-custom-2 {
   /* fallback for old browsers */
   background: #fccb90;
