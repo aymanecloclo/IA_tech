@@ -47,3 +47,25 @@ AOS.init({
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
 });
+
+function validateForm(event){
+    event.preventDefault();
+    let inputs = document.querySelectorAll('#envoyer .form-control');
+    let isValid = true;
+    inputs.forEach(input=>{
+        let feedbackElement = document.getElementById(input.id + '_feedback');
+        if (input.value.trim()==""){
+            feedbackElement.innerHTML="ce champs est obligatoire !";
+            isValid = false;
+        }else{
+            feedbackElement.innerHTML="";
+        }
+    });
+    if(isValid){
+        alert('votre messasge a bien eté envoyer!')
+    }
+    let message = get.ElementById('message-text');
+    if(message.value.trim()==""){
+       document.getElementById('feedback').innerHTML='veuillez saisir votre message !';
+    }
+}
